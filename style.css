@@ -1,0 +1,111 @@
+/* == =============================================================== == */
+/* 
+Colors
+#1f2e35
+#4c5b60
+#7f7462
+#b89a63
+#e2caa0
+*/
+
+
+/* == =============================================================== == */
+body {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 10px;
+  background-color: #1f2e35;
+  background-image: linear-gradient(to bottom, #1f2e35, #4c5b60);
+  color: #e2caa0;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.sitenotice {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #7f7462;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* == =============================================================== == */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1f2e35;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.sidenav a:hover {
+}
+
+/* == =============================================================== == */
+.div-primary {
+}
+
+.div-secondary {
+}
+
+:any-link {
+  text-decoration: none;
+  color: #e2caa0;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* == =============================================================== == */
+.btn-primary {
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  padding: 5px;
+  border-radius: 20px;
+}

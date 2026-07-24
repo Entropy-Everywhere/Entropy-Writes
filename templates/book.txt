@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Writing Hub</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" async defer></script>
+</head>
+<body>
+
+    <sidenav></sidenav>
+    <header></header>
+
+    <main>
+        <h2>Name</h2>
+        <p>Rating : </p>
+        <p>Characters : </p>
+        <p>Fandom(s) : </p>
+        <p>Tags : </p>
+        <p>Word Count : </p>
+        <br>
+        <div class="div-primary"></div>
+        <br>
+        <p style="text-align: center;">txt</p>
+        <center>
+            <a href="/stories/">Read</a>
+        </center>
+        
+    </main>
+
+    <footer></footer>
+</body>
+</html>
