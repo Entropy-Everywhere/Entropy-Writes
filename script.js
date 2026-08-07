@@ -1,4 +1,4 @@
-/* == Main == */
+/* == Templates == */
 
 fetch("/site/header.html")
   .then(response => {
@@ -31,3 +31,4 @@ fetch("/site/sidebar.html")
   .then(data => {
     document.querySelector("sidenav").innerHTML = data;
 });
+

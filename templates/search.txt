@@ -13,7 +13,16 @@
     <header></header>
 
     <main>
-              
+        <h2>name</h2>
+        <p>about</p>  
+        <h2>Featured Works:</h2> 
+        <ul>
+            <li><a href="/stories/"></a></li>
+        </ul>
+        <h2>Featured Characters:</h2> 
+        <ul>
+            <li><a href="/search/characters/"></a></li>
+        </ul>
     </main>
 
     <footer></footer>
