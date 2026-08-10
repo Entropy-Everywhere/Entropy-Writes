@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Writing Hub</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" async defer></script>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/media/favicons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/media/favicons/icon-512x512.png">
+  </head>
+  <body>
+
+    <header></header>
+     <sidenav></sidenav>
+
+     <main>
+        <h2>Search Menu</h2>
+
+        <div class="row">
+          <div class="left">
+            <input class="search" type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+            <ul id="myMenu">
+              <li><a href="/search/allfandoms.html">Fandoms</a></li>
+              <li><a href="/search/fandoms/backrooms.html">Backrooms</a></li>
+              <li><a href="/search/fandoms/cj.html">Chonny Jash</a></li>
+              <li><a href="/search/fandoms/deltarune.html">Deltarune</a></li>
+              <li><a href="/search/fandoms/f451.html">Fahrenheit 451</a></li>
+              <li><a href="/search/fandoms/hh.html">Hazbin Hotel</a></li>
+              <li><a href="/search/fandoms/oc.html">OC</a></li>
+              <li> <a href="/search/fandoms/tadc.html">The Amazing Digital Circus</a></li>
+              <li><a href="/search/fandoms/tsa.html">The Show Awaits</a></li>
+              <li><a href="/search/fandoms/veritymc.html">Verity Minecraft</a></li>
+              <li><a href="/search/fandoms/wof.html">Wings Of Fire</a></li>
+              
+              <li><a href="/search/allcharacters.html">Characters</a></li>
+              <li><a href="/search/characters/alistar.html">Alistar</a></li>
+              <li><a href="/search/characters/caine.html">Caine</a></li>
+              <li><a href="/search/characters/captbeatty.html">Captain Beatty</a></li>
+              <li><a href="/search/characters/ivory.html">Ivory (OC)</a></li>
+              <li><a href="/search/characters/jeremy.html">Jeremy</a></li>
+              <li><a href="/search/characters/lilith.html">Lilith</a></li>
+              <li><a href="/search/characters/mrp.html">MR-P (Emmy)</a></li>
+              <li><a href="/search/characters/scarlet.html">Scarlet</a></li>
+              <li><a href="/search/characters/sonne.html">Sonne (OC)</a></li>
+              <li><a href="/search/characters/tenna.html">Tenna</a></li>
+              <li><a href="/search/characters/thatmob.html">ThatMob</a></li>
+              <li><a href="/search/characters/hosts.html">The Hosts (OC)</a></li>
+              <li><a href="/search/characters/thesoul.html">The Soul</a></li>
+              <li><a href="/search/characters/vmrp.html">Vault MR-P (V)</a></li>
+              <li><a href="/search/characters/verity.html">Verity</a></li>
+              <li><a href="/search/characters/vox.html">Vox</a></li>
+
+              <li><a href="/search/allworks.html">Works</a></li>
+              <li><a href="/stories/abstractionau.html">Abstraction AU</a></li>
+              <li><a href="/stories/backroomsau.html">Backrooms AU</a></li>
+              <li><a href="/stories/elevatorau.html">Elevator Man</a></li>
+              <li><a href="/stories/loopau.html">Loop AU</a></li>
+              <li><a href="/stories/rlmf1.html">Rotting Lungs and Moldy Flowers</a></li>
+              <li><a href="/stories/showrunnertherapy.html">Showrunner Therapy</a></li>
+              <li><a href="/stories/thestar.html">The Star</a></li>
+            </ul>
+          </div>
+        </div>
+     </main>
+    
+     <footer></footer>
+
+  <script>
+  function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myMenu");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+
+  </body>
+</html>

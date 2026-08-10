@@ -31,4 +31,3 @@ fetch("/site/sidebar.html")
   .then(data => {
     document.querySelector("sidenav").innerHTML = data;
 });
-

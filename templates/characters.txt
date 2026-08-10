@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scarlet - Writing Hub</title>
+    <title>Name - Writing Hub</title>
     <link rel="stylesheet" href="/style.css">
     <script src="/script.js" async defer></script>
     
@@ -23,13 +23,13 @@
     <main>
         <div class="row">
             <div class="column">
-                <h2>Scarlet</h2>
+                <h2>Name</h2>
             </div>
 
             <div class="column">
                 <table class="infobox">
                     <tr>
-                        <th colspan="2" class="infobox-title">Scarlet</th>
+                        <th colspan="2" class="infobox-title">Name</th>
                     </tr>
                     <tr>
                         <td colspan="2" class="infobox-image">
@@ -39,22 +39,22 @@
 
                     <tr>
                         <th>Alliases : </th>
-                        <td>Queen Scarlet, Ex-Queen Scarlet</td>
+                        <td>txt</td>
                     </tr>
 
                     <tr>
                         <th>Gender : </th>
-                        <td>Female</td>
+                        <td>txt</td>
                     </tr>
 
                     <tr>
                         <th>Age : </th>
-                        <td>??</td>
+                        <td>txt</td>
                     </tr>
 
                     <tr>
                         <th>Fandom : </th>
-                        <td><a href="/search/fandoms/wof.html">Wings Of Fire</a></td>
+                        <td><a href="/search/fandoms/"></a></td>
                     </tr>
 
                 </table>
@@ -63,7 +63,7 @@
 
         <h2>Featured Works:</h2> 
         <ul>
-            <li><a href="/stories/showrunnertherapy.html">Showrunner Therapy</a></li>
+            <li><a href="/stories/"></a></li>
         </ul>
     </main>
 

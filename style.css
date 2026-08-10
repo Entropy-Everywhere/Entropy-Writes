@@ -29,6 +29,11 @@ footer {
   text-align: center;
 }
 
+main {
+  background-color: #7f7462;
+  padding: 5px;
+}
+
 .sitenotice {
   border-radius: 10px;
   padding: 5px;
@@ -108,4 +113,9 @@ footer {
 .btn-primary:hover {
   padding: 5px;
   border-radius: 20px;
+}
+
+.search {
+  background-color: #1f2e35;
+  color: #e2caa0;
 }
